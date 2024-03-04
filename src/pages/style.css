@@ -1,0 +1,229 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+.wave {
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.Typewriter__wrapper {
+  font-size: 2em !important;
+  color: #fff !important;
+  /* font-weight: 600 !important; */
+  letter-spacing: 1px !important;
+}
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #fff !important;
+}
+
+.about-heading::after {
+  content: "";
+  position: absolute;
+  top: calc(114% + 1.5rem);
+  height: 5px;
+  width: 3rem;
+  background: #0062b9;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+}
+
+/* skils style  */
+.skillsContainer {
+  margin-top: 50px;
+}
+.skill--box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 8px;
+  margin-left: 20px;
+}
+.skill-image {
+  width: 60px;
+  height: 50px;
+}
+
+/* Buttons */
+
+.custom-btn {
+  width: 140px;
+  height: 50px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+.btn-15,
+.form-btn {
+  background: #b621fe;
+  border: none;
+  z-index: 1;
+}
+
+.form-btn {
+  background: #ffb7c5 !important;
+}
+
+.btn-15:after,
+.form-btn:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 100%;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  background-color: #663dff;
+  border-radius: 5px;
+  box-shadow: inset 2px 2px 2px 0px rgba(255, 255, 255, 0.5),
+    7px 7px 20px 0px rgba(0, 0, 0, 0.1), 4px 4px 5px 0px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.form-btn:after {
+  background-color: #460731 !important;
+}
+
+.btn-15:hover,
+.form-btn:hover {
+  color: #fff;
+}
+.btn-15:hover:after,
+.form-btn:hover:after {
+  left: 0;
+  width: 100%;
+}
+.btn-15:active,
+.form-btn:active {
+  top: 2px;
+}
+
+.socailmediabtn {
+  margin-top: 2rem;
+  width: 90px;
+  height: 50px;
+  background-color: transparent;
+  border: none;
+  border-radius: 5px;
+}
+.socailmediabtn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+  opacity: 0.8;
+}
+.icon {
+  font-size: 30px;
+  text-align: center;
+  /* color: #a94dff4d; */
+}
+
+.page-container {
+  transition: transform 1.3s ease-in-out;
+  transform: translateX(0); /* Initially set to 0 */
+}
+
+.page-enter {
+  transform: translateX(100%); /* Slide in from the right */
+}
+
+.page-enter-active {
+  transform: translateX(0); /* Slide back to 0 */
+}
+
+.page-exit {
+  transform: translateX(0); /* Slide back to 0 */
+}
+
+.page-exit-active {
+  transform: translateX(-100%); /* Slide out to the left */
+}
+
+.experience-image:hover p {
+  color: white;
+}
+
+.experience-image {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.background1,
+.background2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 700ms ease-in-out;
+  z-index: -1;
+}
+
+.background1 {
+  background-image: linear-gradient(to right, #411a66, #411a66);
+  opacity: 1;
+}
+
+.background2 {
+  background-image: linear-gradient(to right, #be46b2, #471a43);
+  opacity: 0;
+}
+
+.experience-image:hover .background1 {
+  opacity: 0;
+}
+
+.experience-image:hover .background2 {
+  opacity: 1;
+}
