@@ -4,6 +4,13 @@ import ProjectItem from "../components/ProjectItem";
 function Projects() {
   const projects = [
     {
+      title: "Feastify",
+      description:
+        "Feastify is a dynamic web application that allows users to search for recipes and easily cook at home. The application leverages the power of React JS and the Spoonacular API to provide users with a seamless and interactive experience. Users can search for recipes, view detailed instructions, and even order the ingredients online.",
+      imageSrc: "/projectfour.png",
+      projectUrl: "https://feastify-recipe.netlify.app/",
+    },
+    {
       title: "Cosmic Crafts",
       description:
         " Cosmic Crafts stands as a dynamic static website tailored for a community-based startup concept. Leveraging the robust capabilities of React JS, the website seamlessly combines responsiveness and interactivity, offering users an engaging experience.",
@@ -24,6 +31,7 @@ function Projects() {
       imageSrc: "/projectthree.png",
       projectUrl: "https://mohangit2810.github.io/camping-landing-page/",
     },
+
     // Add more projects as needed
   ];
   return (
