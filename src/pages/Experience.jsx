@@ -6,25 +6,25 @@ function Experience() {
   return (
     <section
       id="experience"
-      className="experiences-container bg-[#2C0055] h-screen"
+      className="experiences-container bg-[#2C0055] pt-24 pb-12 h-auto lg:h-screen"
     >
-      <div className="flex gap-26 justify-center">
-        <div className="mx-32 mt-6 flex flex-col gap-8 w-full">
+      <div className="flex items-center flex-col lg:flex-row gap-12 ml:gap-26 justify-center">
+        <div className="mx-12 xl:mx-32 mt-6 flex flex-col gap-8 w-3/4 lg:w-full overflow-hidden ">
           <h1 className="about-heading mx-auto text-center text-5xl pt-12 mb-12  ">
             Experiences
           </h1>
           <ExperienceCard
             time="2023 Nov - 2024 Feb"
-            role="Full Stack Developer"
+            role="Full Stack Developer - Intern"
             place="PK Innovatives, Chennai"
           />
           <ExperienceCard
             time="2022 Jun - 2023 Oct"
-            role="Frontend Developer"
+            role="Frontend Developer - Intern"
             place="Cosmic Crafts, Chennai"
           />
         </div>
-        <div className="mx-32 mt-6 flex flex-col gap-8 w-full overflow-hidden">
+        <div className="mx-12 xl:mx-32 mt-6 flex flex-col gap-8 w-3/4 lg:w-full overflow-hidden ">
           <h1 className="about-heading mx-auto text-center text-5xl pt-12 mb-12  ">
             Education
           </h1>

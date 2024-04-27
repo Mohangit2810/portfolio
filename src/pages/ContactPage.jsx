@@ -9,9 +9,11 @@ import "../pages/style.css";
 
 function ContactPage() {
   return (
-    <div className="bg-[#2C0055] h-screen">
-      <h1 className="mx-auto text-center text-5xl pt-48 ">Get In Touch</h1>
-      <p className="text-center mt-8 text-lg tracking-wide leading-relaxed">
+    <div className="bg-[#2C0055] h-auto lg:h-screen pb-24 lg:pb-0 px-12">
+      <h1 className="mx-auto text-center text-3xl md:text-5xl pt-24 md:pt-48 ">
+        Get In Touch
+      </h1>
+      <p className="text-center mt-8 text-base md:text-lg tracking-wide leading-relaxed">
         I&apos;m currently searching for opportunities for a front-end developer
         role.
         <br />

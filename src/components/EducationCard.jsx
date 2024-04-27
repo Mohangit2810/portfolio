@@ -22,7 +22,7 @@ function EducationCard({ time, role, place }) {
 
   return (
     <animated.div ref={ref} style={props} className="mb-6">
-      <div className="experience-image flex flex-col items-start justify-start gap-4 rounded-xl py-4 px-6">
+      <div className="h-auto lg:h-[215px] xl:!h-auto experience-image flex flex-col items-start justify-start gap-4 rounded-xl py-4 px-6">
         <div className="background1"></div>
         <div className="background2"></div>
         <p className="font-bold text-xl text-[#be46b2]">{time}</p>

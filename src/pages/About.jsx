@@ -5,14 +5,16 @@ import "../pages/style.css";
 
 function About() {
   return (
-    <section id="about_me" className="bg-[#2C0055] h-screen">
-      <h1 className="about-heading mx-auto text-center text-5xl pt-12  ">
-        About Me
+    <section id="about_me" className="bg-[#2C0055] h-auto lg:h-screen">
+      <h1 className=" mx-auto text-center text-2xl lg:text-5xl pt-12">
+        <span className="about-heading">About Me</span>
       </h1>
-      <div className="flex w-3/4 mx-auto mt-20 gap-8">
+      <div className="flex flex-col-reverse lg:flex-row w-3/4 mx-auto mt-20 gap-8">
         <div className="">
-          <h2 className="text-4xl mb-6 font-semibold mt-6">Hello There !</h2>
-          <p className="text-xl leading-relaxed">
+          <h2 className="text-2xl md:text-4xl mb-6 font-semibold mt-6">
+            Hello There !
+          </h2>
+          <p className="text-base md:text-xl text-justify leading-relaxed">
             I&apos;m a self-taught Front End developer. I build websites with a
             focus on providing the experience for everyone using them and
             responsiveness. Curious to learn more about developing scalable
@@ -22,7 +24,7 @@ function About() {
           </p>
         </div>
         <img
-          className="w-80 h-80 rounded"
+          className="w-44 h-52 md:w-80 md:h-96 rounded mx-auto"
           src="../mohan.png"
           alt="a picture of mohanraji"
         />

@@ -26,22 +26,28 @@ const ProjectItem = ({ title, description, imageSrc, projectUrl, index }) => {
       style={props}
       className={
         isOdd
-          ? "flex flex-row-reverse  gap-8 justify-center items-center"
-          : "flex gap-8 justify-center items-center"
+          ? "flex flex-col-reverse lg:flex-row flex-row-reverse  gap-4 md:gap-8 justify-center items-center"
+          : "flex flex-col-reverse lg:flex-row gap-4 md:gap-8 justify-center items-center"
       }
     >
       <div className="ml-4">
-        <h2 className="text-4xl mb-6 font-semibold mt-6">{title}</h2>
+        <h2 className="text-2xl md:text-4xl mb-6 font-semibold mt-6">
+          {title}
+        </h2>
         <p>{description}</p>
 
-        <a target="blank" href={projectUrl}>
+        <a className="mx-auto" target="blank" href={projectUrl}>
           <button className="mt-8 custom-btn btn-15">
             <span>View Project</span>
           </button>
         </a>
       </div>
 
-      <img className="max-w-xl" src={imageSrc} alt={`a picture of ${title}`} />
+      <img
+        className="max-w-sm md:max-w-lg lg:!max-w-xl"
+        src={imageSrc}
+        alt={`a picture of ${title}`}
+      />
     </animated.div>
   );
 };
