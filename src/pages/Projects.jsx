@@ -36,7 +36,7 @@ function Projects() {
   ];
   return (
     <section id="projects" className="bg-[#2C0055] overflow-hidden">
-      <h1 className=" mx-auto text-center text-5xl pt-12 relative">
+      <h1 className=" mx-auto text-center text-3xl md:text-5xl pt-12 relative">
         <span className="about-heading">Projects</span>
       </h1>
 

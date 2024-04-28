@@ -12,7 +12,7 @@ function Landing() {
   return (
     <section
       id="homepage"
-      className="relative landing-page bg-[url('../landing.jpg')] bg-cover h-[650px] lg:h-screen"
+      className="relative landing-page bg-[url('../landing.webp')] bg-cover h-[650px] lg:h-screen"
     >
       <AppNav />
       <div className="hero-text absolute top-[12rem] left-8 md:top-[17rem] md:left-16">

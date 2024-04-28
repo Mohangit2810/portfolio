@@ -13,7 +13,7 @@ function Contact() {
   return (
     <div className="relative overflow-hidden ">
       <FallingLeaves />
-      <div className="bg-[#2C0055] bg-[url('../contact.jpg')] bg-cover h-screen page-container">
+      <div className="bg-[#2C0055] bg-[url('../contact.webp')] bg-cover h-screen page-container">
         <animated.div style={formAnimation} className="contact-form-container">
           <form
             className="contact-form py-24"

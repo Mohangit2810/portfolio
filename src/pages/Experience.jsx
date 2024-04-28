@@ -10,7 +10,7 @@ function Experience() {
     >
       <div className="flex items-center flex-col lg:flex-row gap-12 ml:gap-26 justify-center">
         <div className="mx-12 xl:mx-32 mt-6 flex flex-col gap-8 w-3/4 lg:w-full overflow-hidden ">
-          <h1 className="about-heading mx-auto text-center text-5xl pt-12 mb-12  ">
+          <h1 className="about-heading mx-auto text-center text-3xl md:text-5xl pt-12 mb-12  ">
             Experiences
           </h1>
           <ExperienceCard
@@ -25,7 +25,7 @@ function Experience() {
           />
         </div>
         <div className="mx-12 xl:mx-32 mt-6 flex flex-col gap-8 w-3/4 lg:w-full overflow-hidden ">
-          <h1 className="about-heading mx-auto text-center text-5xl pt-12 mb-12  ">
+          <h1 className="about-heading mx-auto text-center text-3xl md:text-5xl pt-12 mb-12  ">
             Education
           </h1>
           <EducationCard
