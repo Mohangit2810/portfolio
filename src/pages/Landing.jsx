@@ -20,7 +20,7 @@ function Landing() {
           Hello <span className="wave">👋 </span>
         </h2>
         <h1 className="text-4xl lg:text-7xl my-3">
-          <span className="text-4xl mr-3">I&apos;m</span>MohanRaji
+          <span className=" text-4xl mr-3">I&apos;m</span>MohanRaji
         </h1>
         <Text />
         <div>

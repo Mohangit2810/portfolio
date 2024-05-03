@@ -25,7 +25,9 @@ function AppNav() {
         tabIndex="0"
       >
         <div className="flex items-center justify-between mx-12 lg:mx-0 lg:justify-around py-6">
-          <span className="text-white text-bold uppercase">MohanRaji</span>
+          <span className="logo text-xl text-white text-bold uppercase">
+            MohanRaji
+          </span>
           <ul className="hidden lg:flex items-center gap-12">
             <a href="#homepage">
               <li className="text-white text-lg ">Home</li>

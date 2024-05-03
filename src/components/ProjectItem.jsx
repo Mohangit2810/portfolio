@@ -26,7 +26,7 @@ const ProjectItem = ({ title, description, imageSrc, projectUrl, index }) => {
       style={props}
       className={
         isOdd
-          ? "flex flex-col-reverse lg:flex-row flex-row-reverse  gap-4 md:gap-8 justify-center items-center"
+          ? "flex flex-col-reverse lg:flex-row-reverse  gap-4 md:gap-8 justify-center items-center"
           : "flex flex-col-reverse lg:flex-row gap-4 md:gap-8 justify-center items-center"
       }
     >
@@ -44,7 +44,7 @@ const ProjectItem = ({ title, description, imageSrc, projectUrl, index }) => {
       </div>
 
       <img
-        className="max-w-sm md:max-w-lg lg:!max-w-xl"
+        className="max-w-xs md:max-w-lg lg:!max-w-xl"
         src={imageSrc}
         alt={`a picture of ${title}`}
       />

@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "jjkfont";
+  src: url("../assets/QueensidesLight-ZVj3l.ttf") format("truetype");
+}
+
+.logo {
+  font-family: "jjkfont", sans-serif;
+}
+
 *,
 *::after,
 *::before {

@@ -14,7 +14,7 @@ function About() {
           <h2 className="text-2xl md:text-4xl mb-6 font-semibold mt-6">
             Hello There !
           </h2>
-          <p className="text-base md:text-xl text-justify leading-relaxed">
+          <p className="text-base md:text-xl text-justify tracking-wide leading-relaxed">
             I&apos;m a self-taught Front End developer. I build websites with a
             focus on providing the experience for everyone using them and
             responsiveness. Curious to learn more about developing scalable

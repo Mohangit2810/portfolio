@@ -4,6 +4,13 @@ import ProjectItem from "../components/ProjectItem";
 function Projects() {
   const projects = [
     {
+      title: "Anime Blogz",
+      description:
+        "Anime Blogz is a React JS-based web app that shows blogs about various anime and manga. There are several categories to choose from, and users can read and comment on blogs. It has a visually appealing UI and is fully responsive.",
+      imageSrc: "/projectfive.png",
+      projectUrl: "https://sakurajima.netlify.app/",
+    },
+    {
       title: "Feastify",
       description:
         "Feastify is a React JS-based web app utilizing the Spoonacular API, enabling users to search recipes, access detailed instructions, and order ingredients online for convenient home cooking.",
