@@ -252,3 +252,315 @@
 .experience-image:hover .background2 {
   opacity: 1;
 }
+
+/* Button */
+
+button#space-btn {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  border: 0;
+  outline: 0;
+  border-radius: 11px;
+  background: #03001e;
+  background: linear-gradient(80deg, #ffcbf2, #ec38bc, #7303c0, #03001e);
+  cursor: pointer;
+}
+
+.btn-container {
+  width: 150px;
+  height: 50px;
+  position: relative;
+  overflow: visible;
+}
+
+.btn-container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 20px;
+  z-index: -1;
+  background: #03001e;
+  background: linear-gradient(80deg, #ffcbf2, #ec38bc, #7303c0, #03001e);
+  filter: blur(20px);
+  opacity: 0;
+}
+
+.btn-container:hover {
+  transform: scale(1.1);
+  transition: all 0.6s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.btn-container:hover:after {
+  transition: all 0.6s cubic-bezier(0.15, 0.83, 0.66, 1);
+  opacity: 0.6;
+}
+
+.space {
+  color: white;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.shooting-star {
+  z-index: 2;
+  width: 120px;
+  height: 3px;
+  position: absolute;
+  background: linear-gradient(80deg, #ffffff, #ffff00, #ff8c00, #00000000);
+  border-radius: 50%;
+  transform: rotate(-40deg);
+  opacity: 0;
+}
+
+button#space-btn div.star {
+  width: 1px;
+  height: 1px;
+  background-color: white;
+  border-radius: 50%;
+  animation: blink 2s cubic-bezier(0.15, 0.83, 0.66, 1) infinite;
+}
+
+button#space-btn div.shooting-star {
+  width: 80px;
+  height: 1px;
+  position: absolute;
+  background: linear-gradient(80deg, #ffffffff, #ffffff00);
+  border-radius: 50%;
+  transform: rotate(-40deg);
+  opacity: 0;
+}
+
+button#space-btn div.shooting-star-1 {
+  animation: fallingStar1 4s 6s cubic-bezier(0.15, 0.83, 0.66, 1) infinite;
+}
+
+button#space-btn div.shooting-star-2 {
+  animation: fallingStar2 2s 10s cubic-bezier(0.15, 0.83, 0.66, 1) infinite;
+}
+
+button#space-btn div.shooting-star-3 {
+  animation: fallingStar3 8s 20s cubic-bezier(0.15, 0.83, 0.66, 1) infinite;
+}
+
+button#space-btn div.shooting-star-4 {
+  animation: fallingStar4 4s 6s cubic-bezier(0.15, 0.83, 0.66, 1) infinite;
+}
+
+@keyframes blink {
+  0% {
+    box-shadow: 0 0 10px 0 white;
+  }
+
+  50% {
+    box-shadow: 0 0 10px 2px white;
+  }
+
+  100% {
+    box-shadow: 0 0 10px 0 white;
+  }
+}
+
+@keyframes fallingStar1 {
+  0% {
+    top: -10px;
+    left: 220px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 200px;
+    left: -20px;
+    opacity: 1;
+  }
+}
+
+@keyframes fallingStar2 {
+  0% {
+    top: -10px;
+    left: 150px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 200px;
+    left: -90px;
+    opacity: 1;
+  }
+}
+
+@keyframes fallingStar3 {
+  0% {
+    top: -10px;
+    left: 80px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 200px;
+    left: -160px;
+    opacity: 1;
+  }
+}
+
+@keyframes fallingStar4 {
+  0% {
+    top: -10px;
+    left: 0px;
+    opacity: 1;
+  }
+
+  100% {
+    top: 200px;
+    left: -240px;
+    opacity: 1;
+  }
+}
+
+.land-shooting-star-1 {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+    0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1);
+  animation: animate 2.3s linear infinite;
+}
+.land-shooting-star-1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(80deg, #ffffff, #ffff00, #ff8c00, #00000000);
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(315deg) translateX(0px);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(315deg) translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+.land-shooting-star-2 {
+  position: absolute;
+  top: 0%;
+  left: 15%;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+    0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1);
+  animation: animate2 2.7s linear infinite;
+}
+.land-shooting-star-2::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(80deg, #ffffff, #ffff00, #ff8c00, #00000000);
+}
+
+@keyframes animate2 {
+  0% {
+    transform: rotate(315deg) translateX(0px);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(315deg) translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+.land-shooting-star-3 {
+  position: absolute;
+  top: 0%;
+  left: 85%;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+    0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1);
+  animation: animate3 4s linear infinite;
+}
+
+.land-shooting-star-3::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 400px;
+  height: 2.6px;
+  background: linear-gradient(80deg, #ffffff, #ffff00, #ff8c00, #00000000);
+}
+
+@keyframes animate3 {
+  0% {
+    transform: rotate(315deg) translateX(0px);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(315deg) translateX(-1000px);
+    opacity: 0;
+  }
+}
+
+.land-shooting-star-4 {
+  position: absolute;
+  top: 35%;
+  right: 0%;
+  width: 4px;
+  height: 4px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1),
+    0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 0.1);
+  animation: animate4 3.5s linear infinite;
+}
+.land-shooting-star-4::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 1px;
+  background: linear-gradient(80deg, #ffffff, #ffff00, #ff8c00, #00000000);
+}
+
+@keyframes animate4 {
+  0% {
+    transform: rotate(315deg) translateX(0px);
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(315deg) translateX(-1000px);
+    opacity: 0;
+  }
+}

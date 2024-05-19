@@ -12,10 +12,10 @@ function Landing() {
   return (
     <section
       id="homepage"
-      className="relative landing-page bg-[url('../landing.webp')] bg-cover h-[650px] lg:h-screen"
+      className="overflow-hidden relative landing-page bg-[url('../landing.webp')] bg-cover h-[650px] lg:h-screen"
     >
       <AppNav />
-      <div className="hero-text absolute top-[12rem] left-8 md:top-[17rem] md:left-16">
+      <div className="z-[20] hero-text absolute top-[12rem] left-8 md:top-[17rem] md:left-16">
         <h2 className="text-2xl lg:text-4xl">
           Hello <span className="wave">👋 </span>
         </h2>
@@ -58,6 +58,10 @@ function Landing() {
           </button>
         </div>
       </div>
+      <div className="land-shooting-star-1"></div>
+      <div className="land-shooting-star-2"></div>
+      <div className="land-shooting-star-3"></div>
+      <div className="land-shooting-star-4"></div>
     </section>
   );
 }

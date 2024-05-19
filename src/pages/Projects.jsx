@@ -4,12 +4,20 @@ import ProjectItem from "../components/ProjectItem";
 function Projects() {
   const projects = [
     {
+      title: "Wild Oasis",
+      description:
+        "A Cabin Booking Website that uses the most advanced Concepts of React JS such as React Query, Complicated State Management and Supabase. This has a Lighthouse Score of 92 in Performance and 100 in Best Practices.",
+      imageSrc: "/projectsix.png",
+      projectUrl: "https://mohan-wild-oasis.netlify.app/",
+    },
+    {
       title: "Anime Blogz",
       description:
         "Anime Blogz is a React JS-based web app that shows blogs about various anime and manga. There are several categories to choose from, and users can read and comment on blogs. It has a visually appealing UI and is fully responsive.",
       imageSrc: "/projectfive.png",
       projectUrl: "https://sakurajima.netlify.app/",
     },
+
     {
       title: "Feastify",
       description:

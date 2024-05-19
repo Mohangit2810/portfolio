@@ -9,7 +9,10 @@ import "../pages/style.css";
 
 function ContactPage() {
   return (
-    <div className="bg-[#2C0055] h-auto lg:h-screen pb-24 lg:pb-0 px-12">
+    <section
+      id="contact"
+      className="bg-[#2C0055] h-auto lg:h-screen pb-24 lg:pb-0 px-12"
+    >
       <h1 className="mx-auto text-center text-3xl md:text-5xl pt-24 md:pt-48 ">
         Get In Touch
       </h1>
@@ -28,6 +31,7 @@ function ContactPage() {
           <span>Say Hello!</span>
         </button>
       </Link>
+
       <div className="flex justify-center items-center">
         <button
           onClick={() => {
@@ -62,7 +66,7 @@ function ContactPage() {
           <AiFillInstagram className="icon mx-auto" />
         </button>
       </div>
-    </div>
+    </section>
   );
 }
 
