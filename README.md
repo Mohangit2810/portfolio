@@ -1,5 +1,9 @@
 # My Portfolio Website
 
+![image](https://github.com/Mohangit2810/portfolio/assets/136815669/b3a237fc-e080-43ad-81a8-65d155e5ee51)
+
+Check out the Website here - [Link](https://mohanraji.me/)
+
 Welcome to my personal portfolio website, a showcase of my skills, projects, and experiences. This project is built using React.js, Tailwind CSS, and React Spring for animations, and leverages various libraries for enhanced functionality.
 
 ## Table of Contents
