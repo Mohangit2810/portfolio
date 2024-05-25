@@ -52,7 +52,7 @@ Developing this portfolio website presented several challenges:
 
 If you have any questions or suggestions, feel free to reach out:
 
-- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/your-profile)
+- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/mohan-raji-95bb8a223/)
 - **Email:** mohanraji2810@example.com
 
 ---
