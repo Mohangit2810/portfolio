@@ -19,7 +19,7 @@ function Experience() {
             place="PK Innovatives, Chennai"
           />
           <ExperienceCard
-            time="2022 Jun - 2023 Oct"
+            time="2023 Jun - 2023 Sep"
             role="Frontend Developer - Intern"
             place="Cosmic Crafts, Chennai"
           />
