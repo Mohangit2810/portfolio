@@ -44,7 +44,7 @@ function Projects() {
       description:
         " This Responsive Camping Website is built with HTML,CSS and JavaScript. It uses GSAP for image animation. This one has a simple aesthetic animation to attract the users.",
       imageSrc: "/projectthree.png",
-      projectUrl: "https://mohangit2810.github.io/camping-landing-page/",
+      projectUrl: "https://mohan-camping.netlify.app/",
     },
 
     // Add more projects as needed
