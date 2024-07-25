@@ -26,6 +26,13 @@ function Projects() {
       projectUrl: "https://feastify-recipe.netlify.app/",
     },
     {
+      title: "Designer Portfolio",
+      description:
+        "This portfolio is done for the UI/UX designer Bharanitharan. With his design principles and my front end expertise we made this website. Tech Stack used HTML, CSS and Javascript. Tools including Figma and VS Code",
+      imageSrc: "/projectthree.png",
+      projectUrl: "https://mohan-camping.netlify.app/",
+    },
+    {
       title: "Cosmic Crafts",
       description:
         " Cosmic Crafts stands as a dynamic static website tailored for a community-based startup. Leveraging the robust capabilities of React JS, the website is seamlessly responsiveness, offering users an engaging experience.",
@@ -38,13 +45,6 @@ function Projects() {
         "Omnifood Website is a static website build with HTML,CSS and little bit of javascript. This project is done under the guidance of Udemy course 'Responsive Website with HTML and CSS' by Jonas Schmedtmann.",
       imageSrc: "/projecttwo.png",
       projectUrl: "https://omnifood.dev/",
-    },
-    {
-      title: "Camping Website",
-      description:
-        " This Responsive Camping Website is built with HTML,CSS and JavaScript. It uses GSAP for image animation. This one has a simple aesthetic animation to attract the users.",
-      imageSrc: "/projectthree.png",
-      projectUrl: "https://mohan-camping.netlify.app/",
     },
 
     // Add more projects as needed
