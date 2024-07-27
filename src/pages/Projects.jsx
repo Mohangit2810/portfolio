@@ -29,8 +29,8 @@ function Projects() {
       title: "Designer Portfolio",
       description:
         "This portfolio is done for the UI/UX designer Bharanitharan. With his design principles and my front end expertise we made this website. Tech Stack used HTML, CSS and Javascript. Tools including Figma and VS Code",
-      imageSrc: "/projectthree.png",
-      projectUrl: "https://mohan-camping.netlify.app/",
+      imageSrc: "/projectseven.png",
+      projectUrl: "https://bharaninrb-portfolio.netlify.app/",
     },
     {
       title: "Cosmic Crafts",
