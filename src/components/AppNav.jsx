@@ -48,7 +48,7 @@ function AppNav() {
           </ul>
           <div className="btn-container hidden lg:block">
             <a
-              href="https://drive.google.com/file/d/1a6wJhmuCLSkKrhTwY4XytBK_mdab6c-b/view?usp=sharing"
+              href="https://drive.google.com/file/d/1oVc8cIwqRwR6h6zpgX92x4QbRcvk03T9/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
