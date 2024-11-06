@@ -50,7 +50,7 @@ function Landing() {
           </button>
           <button
             onClick={() => {
-              window.open("https://instagram.com/mohan_raji_28");
+              window.open("https://www.instagram.com/webdevmohan/");
             }}
             className="socailmediabtn"
           >
